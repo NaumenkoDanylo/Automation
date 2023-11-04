@@ -8,6 +8,6 @@ public class Main {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Home\\IdeaProjects\\Automation\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com.ua/");
-        System.out.println("Page open successfully");
+        System.out.println("Browser open successfully");
     }
 }
