@@ -13,7 +13,6 @@ public class NavigationBarComponent {
     public NavigationBarComponent(ElementsCollection selenideElements) {
         this.navigationButtons = $x("//div/ul[@class='uk-navbar-nav']");
         this.navigationDropDownButtons = $x("//div//ul[@class='uk-nav uk-navbar-dropdown-nav']");
-
     }
 
     public String getNavigationBarComponents() {
